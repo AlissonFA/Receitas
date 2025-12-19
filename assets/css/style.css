@@ -74,3 +74,42 @@ footer a {
     text-decoration: none;
     color: #F0E8C2;
 }
+
+/* tentando deixar responsivo no tablet, seguindo o que apliquei no celular */
+@media (max-width: 900px) {
+    #page {
+        width: 90%;
+        margin: 48px auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer img {
+        width: auto;
+    }
+}
+
+/* tentando deixar responsivo no celular, mas ainda não estudei responsividade, então posso ter feito errado */
+@media(max-width: 450px) {
+    #page {
+        width: 90%;
+        margin: 24px auto;
+        padding: 16px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    footer img {
+        width: 1rem;
+    }
+}
